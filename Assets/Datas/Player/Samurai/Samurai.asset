@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a213baa81d5050647a4c388416fc873c, type: 3}
+  m_Name: Samurai
+  m_EditorClassIdentifier: 
+  speed: 5
+  attackCooldown: 0.005
+  attackDuration: 1
+  life: 10
+  damage: 1
+  attackZones:
+  - {fileID: 8582390226119608702, guid: 88fe14d9022d18145ba64fe71c1891ac, type: 3}
+  invicibilityDuration: 0.3
